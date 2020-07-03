@@ -20,7 +20,7 @@ if(title!=null && !"".equals(title)){
 }
 if(content!=null && !"".equals(content)){
 	sql += " where content like concat ('%',?,'%')";
-}
+} 
 if(creusr!=null && !"".equals(creusr)){
 	sql += " where creusr like concat ('%',?,'%')";
 }

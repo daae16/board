@@ -9,7 +9,7 @@
 <title>Insert title here</title>
 </head>
 <body>
-<% 
+<%  
 String[] searchs = request.getParameterValues("search");
 Connection conn = Connector.getConnection();
 String sql = "select num, title, content, credat, creusr from board where 1=1";
